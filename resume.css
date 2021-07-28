@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Bahnschrift Condensed;
+    padding: 2px;
+}
+body a{
+    text-decoration: none;
+    color: rgba(1, 10, 10, 0.726);
+    font-size: 20px;
+    border: 2px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 25px;
+
+}
+body a:hover{
+    background-color: black;
+    color: cornsilk;
+    
+}
+.head{
+    text-align: center;
+}
+.contaner{
+    background-color: teal;
+    border: 1px solid black;
+}
+.box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border: 1px solid black;
+}
+.index{
+    width: 500px;
+   
+}
+.detail{
+    text-align:left;
+    width: 500px;
+}
+@media (max-width:500px){
+    body{
+        width:100%;
+        font-size: 70%;
+    }
+    body a{
+        font-size: 70%;
+    }
+    .box{
+        width:100%;
+        display: block;
+    }
+    .head{
+        font-size: 70%;
+    }
+    .contaner{
+        width:100%;
+    }
+    .index{
+        width: 50%;
+        font-size: 70%;
+    }
+    .detail{
+        width:fit-content;
+        font-size: 25%;
+        margin: 0px;
+        
+    
+    }
+
+}
